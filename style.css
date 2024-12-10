@@ -2,20 +2,20 @@
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
 
 body {
-  opacity: 0;
-  animation: fadeIn 2.5s ease-in forwards;
+  opacity: 0; 
+  animation: fadeIn 2s ease-in forwards; 
 }
 
 .content {
   height: 2000px;
   /*background-color: yellow;*/
+
   /*opacity: 0.5;*/
 }
 
@@ -51,42 +51,43 @@ body {
 }
 
 #x-box {
-
+  
   width: 100vw;
-  height: 100%;
+  height:100%;
   z-index: -3;
-  position: absolute;
+  position:absolute;
   background-color: blue;
   opacity: 0.5;
 }
 
 
 #a-box {
-
+ 
   z-index: 2;
-  position: absolute;
-  overflow: hidden;
-  /* background-color: green;
+  position:absolute;
+  overflow:hidden;
+ /* background-color: green;
   opacity: 0.5;*/
-
+  
 }
 
 .info {
   /*background-color:pink;*/
-  height: 5000px;
-
-  position: absolute;
-  top: 0;
+  height:5000px;
+  
+  position:absolute;
+  top:0;
   z-index: 20;
 }
 
-p {
-  color: #e23d2c;
+p{
+  color:#e23d2c;
   font-size: 50px;
-  font-family: "Space Grotesk", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   line-height: 1.3;
 
 }
+
