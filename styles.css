@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    height: 400vh; /* 400% of the viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 400vh;
+}
+
+.images img {
+    position: absolute;
+    max-width: 200px;
+}
+
+/* Scatter images at various positions */
+.image1 {
+    top: 10%;
+    left: 10%;
+}
+
+.image2 {
+    top: 30%;
+    right: 15%;
+}
+
+.image3 {
+    top: 60%;
+    left: 25%;
+}
+
+.image4 {
+    top: 80%;
+    right: 5%;
+}
+
+.image5 {
+    top: 120%;
+    left: 50%;
+}
+
+.text {
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    text-align: center;
+}
